@@ -143,7 +143,7 @@ export default {
                 body: this.$route.params.id
             }).then(function(response) {
                 if(response.data.status == 200){
-                    router.push('/autores/')
+                    router.push('/autores')
                 }
             })
             .catch(function (error) {
